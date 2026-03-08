@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<title>Список завдань</title>
+</head>
+
+<body>
+
+<h1>Список завдань</h1>
+
+<form action="/add" method="POST">
+<input type="text" name="task" placeholder="Введіть нове завдання">
+<button type="submit">Додати завдання</button>
+</form>
+
+<h2>Додані завдання</h2>
+
+<form action="/done" method="POST">
+
+<div>
+<input type="checkbox" name="index" value="0">
+Опанувати JavaScript
+</div>
+
+<div>
+<input type="checkbox" name="index" value="1">
+Опанувати Node.js
+</div>
+
+<button type="submit">Виконати завдання</button>
+
+</form>
+
+<h2>Виконані завдання</h2>
+
+<ul>
+<li>Опанувати HTML та CSS</li>
+<li>Опанувати Git та GitHub</li>
+</ul>
+
+</body>
+</html>

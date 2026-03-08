@@ -1,0 +1,14 @@
+{
+  "name": "todo-list",
+  "version": "1.0.0",
+  "description": "Вебзастосування Node.js Список завдань",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Сергій Мельничук",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
